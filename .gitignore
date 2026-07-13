@@ -1,0 +1,24 @@
+# --- Secrets: never commit ---
+.env
+*.env
+!.env.example
+
+# --- Data files ---
+*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
