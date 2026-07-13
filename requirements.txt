@@ -1,0 +1,14 @@
+# Dependencies for the ALA -> ArcGIS Online pipeline
+requests>=2.31
+pandas>=2.0
+geopandas>=0.14
+shapely>=2.0
+arcgis>=2.3
+python-dotenv>=1.0
+
+# NOTE on geopandas / shapely:
+# These have compiled geospatial dependencies (GEOS, GDAL, PROJ) that often
+# fail to install with plain pip on Windows. If `pip install geopandas` errors,
+# use conda instead:
+#   conda install -c conda-forge geopandas shapely
+# See README.md for full setup instructions.
