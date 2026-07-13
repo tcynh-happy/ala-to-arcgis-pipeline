@@ -121,5 +121,6 @@ under CC-BY. Code is released under the [MIT License](LICENSE).
 
 ## Author
 
-Your Name — GIS & spatial data engineering.
-<!-- Add your GitHub / LinkedIn / email here. -->
+Chen-Yang Tsai — Forester & Resource Analyst.
+<https://github.com/tcynh-happy>
+<chenyangtsai0414@gmail.com>
